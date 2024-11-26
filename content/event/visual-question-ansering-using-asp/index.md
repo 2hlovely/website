@@ -6,11 +6,12 @@ title: Visual Question Ansering Using ASP
 
 location: Boxue Building
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street: Huaxi district avenue
+  city: Guiyang
+  region: Guizhou
+  postcode: '550025'
+  country: China
+  country_code: CN
 
 summary: In this talk, we consider VQA using ASP in a modular neuro- symbolic architecture that comprises both subsymbolic components, based on neural networks, and symbolic reasoning components that use ASP. We discuss explanation finding as a use case, which benefit from the versatility of ASP and the rich landscape of ASP extensions, and briefly touch our ongoing work on exploiting LLMs for VQA.
 abstract: 'Answer Set Programming (ASP), is a well- known approach to declarative problem solving that has been successfully employed in many application areas. Among them is Visual Question Answering (VQA),which is concerned with answering a question, posed in natural language, about a visual scene shown in an image or possibly also in a video sequence. VQA is a challenging task that requires processing multi-modal input and reasoning capabilities to obtain the correct answer. In this talk, we consider VQA using ASP in a modular neuro- symbolic architecture that comprises both subsymbolic components, based on neural networks, and symbolic reasoning components that use ASP. We discuss explanation finding as a use case, which benefit from the versatility of ASP and the rich landscape of ASP extensions, and briefly touch our ongoing work on exploiting LLMs for VQA.'

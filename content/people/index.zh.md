@@ -17,6 +17,8 @@ sections:
         - 研究生
         - 行政
         - 访问学者
+        - 博士生
+        - 硕士生
       sort_by: Params.last_name
       sort_ascending: true
     design:

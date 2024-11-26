@@ -14,9 +14,10 @@ sections:
         - Supervisors
         - Principal Investigators
         - Researchers
-        - Grad Students
         - Administration
         - Visitors
+        - PhD Candidate
+        - Grad Students
       sort_by: Params.last_name
       sort_ascending: true
     design:
