@@ -1,0 +1,25 @@
+# Languages
+#   Create a section for each of your site's languages.
+#   Documentation: https://docs.hugoblox.com/reference/language/
+
+# Default language
+en:
+  disabled: false
+  languageCode: 'en-US'
+  languageDirection: 'ltr'
+  languageName: 'English'
+  title: 'Omiga-krr Group'
+  weight: 2
+# Uncomment the lines below to configure your website in a second language.
+zh:
+  disabled: false
+  languageCode: 'zh-CN'
+  languageDirection: 'ltr'
+  languageName: '中文'
+  title: 'Omiga 知识表示与推理'
+  weight: 1
+  hasCJKLanguage: true
+#  contentDir: content/zhs
+#  title: Chinese website title...
+#  params:
+#    description: Site description in Chinese...
