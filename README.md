@@ -62,3 +62,14 @@ hugo new --kind publication content/publication/<title>
 ```
 hugo new --kind slide content/slides/<title>
 ```
+
+### 运行
+本地预览
+```bash
+hugo serve
+```
+
+生成静态文件
+```bash
+hugo --minify
+```
