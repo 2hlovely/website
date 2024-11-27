@@ -5,5 +5,4 @@
 ############################
 
 imports:
-  - path: github.com/gzu-ai/hugo-blox-builder/modules/blox-bootstrap/v5
-  - path: github.com/gzu-ai/hugo-blox-builder/modules/blox-tailwind
+  - path: github.com/gzu-ai/hugo-blox-builder/modules/blox-krrbootstrap
