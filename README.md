@@ -1,6 +1,6 @@
 Copy from [Hugo Research Group Theme](https://github.com/HugoBlox/hugo-blox-builder)
 
-详细教程看[文档](https://docs.hugoblox.com)，可能需要翻墙
+详细教程看[文档1](https://docs.hugoblox.com)、[文档2](https://bootstrap.hugoblox.com)，可能需要翻墙
 
 #### 安装环境
 #### Windows
