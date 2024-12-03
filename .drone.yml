@@ -3,7 +3,8 @@ name: default
 
 steps:
   - name: 生成静态资源
-    image: localhost/plugins/hugo
+    pull: if-not-exists
+    image: plugins/hugo
     volumes:
       - name: html
         path: /tmp/cache
