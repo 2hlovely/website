@@ -11,9 +11,9 @@ steps:
       # 指定hugo版本
       hugo_version: 0.134.2
       # 是否校验配置文件是否合法
-      validate: true
+      Extended: true
       output: /tmp/cache
 volumes:
-- name: html
-  host:
-    path: /data/html
+  - name: html
+    host:
+      path: /data/html
