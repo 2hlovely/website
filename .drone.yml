@@ -1,0 +1,19 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: 生成静态资源
+    image: plugins/hugo
+    volumes:
+      - name: html
+        path: /tmp/cache
+    settings:
+      # 指定hugo版本
+      hugo_version: 0.134.2
+      # 是否校验配置文件是否合法
+      validate: true
+      output: /tmp/cache
+volumes:
+- name: html
+  host:
+    path: /data/html
