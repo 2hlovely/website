@@ -7,8 +7,7 @@ steps:
     image: hugomods/hugo
     commands:
       - cd themes/vendor && yarn && yarn build && cd ../..
-      - hugo
-      - npm_config_yes=true npx pagefind --site "public" --output-subdir ../static/pagefind && 
+      - rm/ data/html/* -fr
       - hugo --minify --destination /tmp/cache
     volumes:
       - name: html
