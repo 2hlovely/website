@@ -1,0 +1,1 @@
+import{x as t}from"./pizza-DvAeEfcm.js";/* empty css                    */t({container:"#docsearch",default_operator:"AND",number_of_results:10,default_field:"*",dataFile:"",translations:{button:{buttonText:"搜索",buttonAriaLabel:"搜索"},modal:{resetButtonTitle:"清除输入",cancelButtonText:"取消",selectText:"访问",navigateText:"导航",closeText:"关闭",searchDocsPlaceHolder:"搜索"}}});

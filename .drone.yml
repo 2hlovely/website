@@ -6,6 +6,7 @@ steps:
     pull: if-not-exists
     image: hugomods/hugo
     commands:
+      - cd themes/vendor && yarn && yarn build && cd ../..
       - hugo
       - npm_config_yes=true npx pagefind --site "public" --output-subdir ../static/pagefind && 
       - hugo --minify --destination /tmp/cache
