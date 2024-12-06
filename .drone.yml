@@ -7,7 +7,7 @@ steps:
     image: hugomods/hugo
     commands:
       - cd themes/vendor && yarn && yarn build && cd ../..
-      - rm/ data/html/* -fr
+      - rm data/html/* -fr
       - hugo --minify --destination /tmp/cache
     volumes:
       - name: html
