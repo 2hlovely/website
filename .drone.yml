@@ -7,11 +7,15 @@ steps:
     image: hugomods/hugo
     commands:
       - cd themes/vendor && yarn && yarn build && cd ../..
-      - rm data/html/* -fr
-      - hugo --minify --destination /tmp/cache
+      - rm /tmp/cache/${DRONE_BRANCH}* -fr
+      - hugo --minify --destination /tmp/cache/${DRONE_BRANCH}
     volumes:
       - name: html
         path: /tmp/cache
+trigger:
+  branch:
+    - dev
+    - main
 volumes:
   - name: html
     host:
