@@ -73,3 +73,6 @@ hugo serve
 ```bash
 hugo --minify
 ```
+### 模块说明
+- github.com/gzu-ai/hugo-blox-builder/modules/blox-krrbootstrap: 主题
+- vendor： 内置模块， 为主题打包第三方资源，目前打包了 academicons  leaflet mathjax
