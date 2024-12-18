@@ -19,7 +19,7 @@ main:
   - name: Alumni
     url: alumni
     weight: 2
-    parent: 成员
+    parent: People
   - name: Alumni
     url: alumni
     weight: 3
