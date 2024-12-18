@@ -7,8 +7,9 @@ steps:
     image: hugomods/hugo
     commands:
       - cd themes/vendor && yarn && yarn build && cd ../..
-      - rm /tmp/cache/${DRONE_BRANCH}* -fr
+      - rm /tmp/cache/${DRONE_BRANCH}/* -fr
       - hugo --minify --destination /tmp/cache/${DRONE_BRANCH}
+      - chmod 744
     volumes:
       - name: html
         path: /tmp/cache
