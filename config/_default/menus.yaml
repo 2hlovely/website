@@ -11,18 +11,31 @@ main:
     url: post
     weight: 20
   - name: People
-    url: people
     weight: 30
+  - name: Current People
+    pageRef: people
+    parent: People
+    weight: 1
   - name: Alumni
     url: alumni
-    weight: 31
+    weight: 2
+    parent: 成员
+  - name: Alumni
+    url: alumni
+    weight: 3
+  - name: Research
+    weight: 40
+  - name: Publication
+    url: publication
+    weight: 1
+    parent: Research
+  - name: Thesis
+    url: thesis
+    weight: 2
+    parent: Research
   - name: Events
     url: event
     weight: 40
-    weight: 41
-  - name: Publications
-    url: publication
-    weight: 50
   - name: Contact
     url: contact
     weight: 60

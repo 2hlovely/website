@@ -3,17 +3,28 @@ main:
     url: post
     weight: 20
   - name: 成员
-    url: people
     weight: 30
+  - name: 当前成员
+    pageRef: people
+    parent: 成员
+    weight: 1
   - name: 毕业生
     url: alumni
-    weight: 31
+    weight: 2
+    parent: 成员
   - name: 活动
     url: event
+    weight: 50
+  - name: 科研
     weight: 40
   - name: 出版物
     url: publication
-    weight: 50
+    weight: 1
+    parent: 科研
+  - name: 毕业论文
+    url: thesis
+    weight: 2
+    parent: 科研
   - name: 联系我们
     url: contact
     weight: 60
