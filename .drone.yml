@@ -6,6 +6,7 @@ steps:
     pull: if-not-exists
     image: hugomods/hugo
     commands:
+      - git config --global http.version HTTP/1.1
       - cd themes/vendor && yarn && yarn build && cd ../..
       - rm /tmp/cache/${DRONE_BRANCH}* -fr
       - hugo --minify --destination /tmp/cache/${DRONE_BRANCH}
