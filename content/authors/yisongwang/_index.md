@@ -99,7 +99,6 @@ email: ''
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Supervisors
-  - Alumni
 ---
 
 Professor at the College of Computer Science and Technology, Guizhou University． His main research interests include knowledge representation andreasoning, machine learning and artificial intelligence．
