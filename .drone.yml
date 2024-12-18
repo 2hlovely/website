@@ -5,6 +5,7 @@ clone:
 steps:
   - name: 拉取代码
     image: alpine/git
+    pull: if-not-exists
     commands:
       - git config --global http.version HTTP/1.1
       - git clone ${DRONE_GIT_HTTP_URL} .
