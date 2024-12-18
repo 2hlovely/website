@@ -20,9 +20,6 @@ main:
     url: alumni
     weight: 2
     parent: People
-  - name: Alumni
-    url: alumni
-    weight: 3
   - name: Research
     weight: 40
   - name: Publication
