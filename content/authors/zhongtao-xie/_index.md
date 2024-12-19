@@ -64,3 +64,7 @@ highlight_name: false
 user_groups:
 - PhD Candidate
 ---
+### Github repository
+{{<github_repo "francisol/GZUthesis-template" "Template of Guizhou  University thesis" >}}
+{{<github_repo "francisol/rssat" "A Rust library that provides Rust bindings for multiple popular SAT solvers" >}}
+{{<github_repo "gzu-ai/circ_solver" "A solver for circumscription based on SAT solver" >}}

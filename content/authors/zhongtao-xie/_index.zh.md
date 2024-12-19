@@ -63,13 +63,9 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - 博士生
-sections:
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
 ---
+
+### 项目仓库
+{{<github_repo "francisol/GZUthesis-template" "贵州大学研究生学位论文模板" >}}
+{{<github_repo "francisol/rssat" "为多个 SAT 求解器提供 Rust 绑定的 Rust 库" >}}
+{{<github_repo "gzu-ai/circ_solver" "基于SAT求解器的限制理论求解器" >}}
