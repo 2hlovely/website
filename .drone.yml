@@ -18,8 +18,9 @@ steps:
       - git config --global http.sslVerify false
       - git config --global http.version HTTP/1.1
       - cd themes/vendor && yarn && yarn build && cd ../..
+      - hugo --minify
       - rm /tmp/cache/${DRONE_BRANCH}/* -fr
-      - hugo --minify --destination /tmp/cache/${DRONE_BRANCH}
+      - mkdir -p /tmp/cache/${DRONE_BRANCH} && cp public/* /tmp/cache/${DRONE_BRANCH}/ -fr 
       - chmod -R 655 /tmp/cache/${DRONE_BRANCH}
     volumes:
       - name: html
